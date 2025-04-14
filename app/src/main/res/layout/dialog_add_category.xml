@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+    <EditText
+        android:id="@+id/categoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Category Title"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/categoryDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Category Description"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/categoryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Category Color"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+</LinearLayout>

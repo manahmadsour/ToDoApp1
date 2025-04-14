@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string-array name="priority_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="text_color_options">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Gray</item>
+        <item>Orange</item>
+    </string-array>
+
+    <string name="default_web_client_id">993905960414-srmghe24a4da9isr177q6ofr2q1p81gg.apps.googleusercontent.com</string>
+</resources>

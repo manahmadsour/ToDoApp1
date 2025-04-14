@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+    <!--  Task Name  -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Task Name" android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <EditText android:id="@+id/taskNameEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter task name" android:inputType="text"/>
+    <!--  Priority Spinner  -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Priority" android:layout_marginTop="16dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <Spinner android:id="@+id/prioritySpinner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <!--  End Date  -->
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End Date" android:layout_marginTop="16dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <EditText android:id="@+id/endDateEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Select end date" android:focusable="false" android:inputType="date"/>
+</LinearLayout>
